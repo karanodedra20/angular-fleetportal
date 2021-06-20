@@ -1,0 +1,103 @@
+header {
+  background-color: #041e42;
+  color: #fff;
+  position: absolute;
+  width: 1584px;
+  height: 64px;
+  left: 0;
+  top: 0;
+}
+header h2 {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 24px;
+  top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+.heading {
+  position: absolute;
+  width: 1580px;
+  height: 68px;
+  left: 4px;
+  top: 40px;
+}
+.heading h3 {
+  position: absolute;
+  width: 167px;
+  left: 40px;
+  top: 32.35%;
+  bottom: 32.35%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #041e42;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  position: relative;
+  width: 768px;
+  height: 240px;
+  top: 252px;
+  left: 40px;
+}
+#users {
+  table-layout: fixed;
+  height: 100%;
+}
+#users td,
+#users th {
+  text-align: left;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 14px;
+}
+#users tr:hover {
+  background-color: #ddd;
+}
+#users th {
+  background-color: #e0e2eb;
+  color: #171719;
+}
+select {
+  position: absolute;
+  height: 56px;
+  width: 208px;
+  left: 48px;
+  top: 172px;
+  background: #fff;
+  border: 1px solid #a4a6ab;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+button {
+  position: relative;
+  top: 185px;
+  left: 270px;
+
+  padding: 0;
+  border: none;
+  background: none;
+
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-decoration-line: underline;
+
+  color: #2058a8;
+}

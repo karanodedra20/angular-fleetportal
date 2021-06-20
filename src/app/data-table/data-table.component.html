@@ -1,0 +1,30 @@
+<header>
+  <h2>Fleet Portal</h2>
+</header>
+
+<div class="heading">
+  <h3>Driver evaluation</h3>
+</div>
+
+<!-- <app-dropdown></app-dropdown> -->
+
+<select [(ngModel)]="listFilter" #select>
+  <option *ngFor="let option of options" [value]="option">
+    {{ option }}
+  </option>
+</select>
+
+<button (click)="reset()">Reset</button>
+
+<table id="users">
+  <tr>
+    <th *ngFor="let col of columns">
+      {{ col }}
+    </th>
+  </tr>
+  <tr *ngFor="let user of filteredData">
+    <td *ngFor="let col of index">
+      {{ user[col] }}
+    </td>
+  </tr>
+</table>
