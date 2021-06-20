@@ -1,0 +1,28 @@
+{
+  "Users": [
+    {
+      "Driver": "Marcus Lundberg",
+      "Company": "Aris FC",
+      "Distance": "75,044 km",
+      "Score": "52"
+    },
+    {
+      "Driver": "Marcus Mena Pacheco",
+      "Company": "Lio LTD",
+      "Distance": "129,417 km",
+      "Score": "95"
+    },
+    {
+      "Driver": "Valentine Ichtertz",
+      "Company": "LOTS Group",
+      "Distance": "244,656 km",
+      "Score": "67"
+    },
+    {
+      "Driver": "Niklas Rosen",
+      "Company": "DD Interactive",
+      "Distance": "200,000 km",
+      "Score": "78"
+    }
+  ]
+}
